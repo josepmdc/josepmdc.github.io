@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JMDC</title>
+    <link>https://example.com/</link>
+    <description>Recent content on JMDC</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>en</language>
+    <contact>jdomingocatafal@gmail.com</contact>
+    <copyright>&copy; <a href="https://github.com/josepmdc">Josep M Domingo Catafal</a> 2020</copyright>
+    
+        <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://example.com/posts/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <author>Josep M Domingo Catafal</author>
+      <guid>https://example.com/posts/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+  </channel>
+</rss>
