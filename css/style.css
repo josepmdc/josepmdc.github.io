@@ -335,11 +335,16 @@ body {
   color: #42464c;
   font-size: 1rem;
   line-height: 1.428571428571429;
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Rubik', sans-serif;
+}
+
+pre code {
+  border-radius: 5px;
+  padding: 20px 20px !important;
 }
 
 code {
-  border-radius: 5px;
-  padding: 20px 20px !important;
   font-size: 13px;
 }
 
@@ -1364,9 +1369,10 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: #b52323;
+  color: #1a1919;
   font-weight: 300;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .content blockquote {
@@ -6392,7 +6398,7 @@ a.panel-block:hover {
 .content h5:not(:first-child),
 .content h6:not(:first-child),
 article+article {
-  margin-top: 80px;
+  margin-top: 25px;
 }
 
 .content {
