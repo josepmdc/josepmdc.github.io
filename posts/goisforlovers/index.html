@@ -17,7 +17,8 @@ This document is a brief primer on using go templates.'>
     
     <link href="https://josepmdc.github.io/index.xml" rel="alternate" type="application/rss+xml" title="JMDC" />
     
-    <link rel="stylesheet" href="/css/style.css" /><link rel='stylesheet' href='https://josepmdc.github.io/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css"><link rel='stylesheet' href='https://josepmdc.github.io/css/custom.css'><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
@@ -27,13 +28,15 @@ This document is a brief primer on using go templates.'>
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-    <script>
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" async></script>
+    <script async>
         hljs.initHighlightingOnLoad();
     </script>
 </head>
 
 <body>
+
 <section class="section">
   <div class="container">
     <nav id="nav-main" class="nav">
@@ -43,7 +46,8 @@ This document is a brief primer on using go templates.'>
         </a>
       </div>
       <div class="nav-right">
-        <nav id="nav-items" class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/josepmdc'
+        <nav id="nav-items" class="nav-item level is-mobile">
+          <a id="dark-mode-toggle">Toggle Dark Mode</a><a class="level-item" aria-label="github" href='https://github.com/josepmdc'
             target='_blank' rel='noopener'>
             <span class="icon">
               <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
@@ -93,6 +97,7 @@ This document is a brief primer on using go templates.'>
   </div>
   <script src="/js/navicon-shift.js"></script>
 </section>
+
 <section class="section">
   <div class="container">
     <div class="subtitle tags is-6 is-pulled-right">
@@ -114,7 +119,12 @@ This document is a brief primer on using go templates.'>
 
       
     </div>
-    <h2 class="subtitle is-6">April 2, 2014</h2>
+    <h2 class="subtitle is-6">
+      
+        April 2, 2014
+      
+      
+    </h2>
     <h1 class="title">(Hu)go Template Primer</h1>
     
     <div class="content">
@@ -408,8 +418,6 @@ so, such as in this example:</p>
   <div class="container has-text-centered">
     <p>&copy; <a href="https://github.com/josepmdc">Josep M Domingo Catafal</a> 2020</p>
     
-      <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
-    
   </div>
 </section>
 
@@ -428,6 +436,9 @@ so, such as in this example:</p>
 <noscript>
   <img src="//matomo.example.com/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
 </noscript>
+
+
+<script src="/js/dark.js"></script>
 
 </body>
 </html>
