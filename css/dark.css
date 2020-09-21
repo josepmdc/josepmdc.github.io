@@ -6087,3 +6087,9 @@ div.subtitle.tags {
 .hljs-link {
 	text-decoration: underline;
 }
+
+::selection {
+  color: #1f1f1f !important;
+  background-color: #ffe155 !important;
+}
+
